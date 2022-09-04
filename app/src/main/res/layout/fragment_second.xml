@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".SecondFragment">
+<ImageView
+    android:layout_width="300dp"
+    android:layout_marginStart="50dp"
+    android:src="@drawable/img"
+    android:scaleType="fitXY"
+    android:layout_height="300dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="first name"
+        android:textSize="28sp"
+        android:id="@+id/text_view1"
+        android:layout_marginStart="130dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="100%"
+        android:textSize="28sp"
+        android:id="@+id/text_view2"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="130dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:text="Second name"
+    android:textSize="28sp"
+        android:id="@+id/text_view3"
+    android:layout_marginStart="130dp"
+        android:layout_marginTop="30dp"
+    android:layout_height="wrap_content"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:text="Goode Choose"
+    android:textSize="28sp"
+        android:id="@+id/text_view4"
+        android:layout_marginTop="30dp"
+    android:layout_marginStart="130dp"
+    android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="300dp"
+        android:text="try"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btn_try"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp"
+        android:layout_height="50dp"/>
+
+</LinearLayout>
